@@ -1,0 +1,19 @@
+USE startersql;
+-- SELECT * FROM users WHERE date_of_birth>'2000-01-01';
+-- SELECT * FROM users WHERE id <= 10; --  ID IS LESS THAN EQUAL TO 10
+-- SELECT * FROM users WHERE id > 10; -- ID is greater than 10 
+-- SELECT * FROM users WHERE date_of_birth  IS NULL;
+-- SELECT * FROM users WHERE date_of_birth IS NOT NULL;
+-- SELECT * FROM users WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31';
+-- SELECT * FROM users WHERE gender IN ('male', 'other');
+-- SELECT * FROM users WHERE gender='female' AND salary>'75000' ORDER BY salary DESC;
+-- SELECT * FROM users WHERE gender='male' AND salary>'68000' ORDER BY salary DESC;
+--  SELECT * FROM users WHERE gender='male' OR salary>'65000' ORDER BY date_of_birth DESC;
+--  SELECT * FROM users WHERE gender='male' OR salary>'65000' ORDER BY date_of_birth DESC LIMIT 5;
+--  SELECT * FROM users WHERE gender='female' OR salary>'65000' ORDER BY date_of_birth DESC;
+-- SELECT * FROM users LIMIT 10 OFFSET 5;
+-- SELECT * FROM users ORDER BY created_at DESC LIMIT 10;
+-- SELECT * FROM users WHERE salary > 60000 ORDER BY created_at DESC LIMIT 5;
+-- SELECT * FROM users WHERE name LIKE 'A%'; 
+-- SELECT * FROM users WHERE name LIKE '%a';
+-- SELECT * FROM users WHERE name LIKE '%li%';
